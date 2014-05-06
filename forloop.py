@@ -1,4 +1,4 @@
 friends = ['Joseph', 'Glenn', 'Sally']
-for friend in friends:
-    print 'Happy New Year:', friend
+for variable in friends:
+    print 'Happy New Year:', variable
 print 'Done!'
