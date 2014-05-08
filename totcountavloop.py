@@ -1,9 +1,11 @@
+#Set needed variables and gather input from user
 count = 0
 total = 0
 while True:
     userinput = raw_input('Enter a number: ')
     if userinput == 'done':
         break
+    #verify that a number only was used
     try:
         number = float(userinput)
     except:
