@@ -1,8 +1,8 @@
 import random 
 count = 0
 numb = random.randrange(1,100)
-#Loop to Generate random number between 1-100 and save it.
-print numb 
+
+#print numb 
 
 while True:
 
@@ -11,6 +11,7 @@ while True:
 		guess = int(guess)
 	except:
 		print 'Please use the number keys, no letters.'
+		continue
 	count = count + 1 
 	if guess == numb:
 		print 'Congratulations! You guessed correctly in',count, 'guesses!'
