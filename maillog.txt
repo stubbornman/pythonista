@@ -1,0 +1,33 @@
+May 22 10:16:08 mail1 postfix/qmgr[79619]: D746A78CB84: removed
+May 22 10:16:08 mail1 postfix/smtpd[67713]: warning: 64.203.111.53: hostname cha-si02-ge-202.smartechcorp.net verification failed: hostname nor servname provided, or not known
+May 22 10:16:08 mail1 postfix/smtpd[67713]: connect from unknown[64.203.111.53]
+May 22 10:16:08 mail1 postfix/smtpd[67713]: disconnect from unknown[64.203.111.53]
+May 22 10:16:09 mail1 postfix/smtpd[69049]: warning: 64.203.111.53: hostname cha-si02-ge-202.smartechcorp.net verification failed: hostname nor servname provided, or not known
+May 22 10:16:09 mail1 postfix/smtpd[69049]: connect from unknown[64.203.111.53]
+May 22 10:16:09 mail1 postfix/smtpd[69049]: disconnect from unknown[64.203.111.53]
+May 22 10:16:15 mail1 postfix/smtpd[66700]: warning: unknown[201.230.115.78]: SASL LOGIN authentication failed: authentication failure
+May 22 10:16:15 mail1 postfix/smtpd[68943]: warning: 64.203.111.52: hostname cha-si01-ge-202.smartechcorp.net verification failed: hostname nor servname provided, or not known
+May 22 10:16:15 mail1 postfix/smtpd[68943]: connect from unknown[64.203.111.52]
+May 22 10:16:15 mail1 postfix/smtpd[68943]: disconnect from unknown[64.203.111.52]
+May 22 10:16:16 mail1 postfix/smtpd[68608]: warning: 64.203.111.52: hostname cha-si01-ge-202.smartechcorp.net verification failed: hostname nor servname provided, or not known
+May 22 10:16:16 mail1 postfix/smtpd[68608]: connect from unknown[64.203.111.52]
+May 22 10:16:16 mail1 postfix/smtpd[68608]: disconnect from unknown[64.203.111.52]
+May 22 10:16:18 mail1 postfix/smtpd[66729]: connect from whatsupprof.smartechcorp.net[64.203.96.42]
+May 22 10:16:19 mail1 postfix/smtpd[66729]: disconnect from whatsupprof.smartechcorp.net[64.203.96.42]
+May 22 10:16:23 mail1 postfix/smtpd[69065]: connect from unknown[64.203.97.170]
+May 22 10:16:23 mail1 postfix/smtpd[69065]: 7F1AA78CB79: client=unknown[64.203.97.170], sasl_method=login, sasl_username=bankdeposit@acaoffices.com
+May 22 10:16:23 mail1 postfix/cleanup[68915]: 7F1AA78CB79: message-id=<20140522141623.7F1AA78CB79@mail1.smartechcorp.net>
+May 22 10:16:23 mail1 postfix/qmgr[79619]: 7F1AA78CB79: from=<ACA209@acaoffices.com>, size=874, nrcpt=2 (queue active)
+May 22 10:16:23 mail1 postfix/smtp[68508]: 7F1AA78CB79: to=<ACA0209@acaoffices.com>, relay=barracuda1.smartechcorp.net[64.203.96.181]:25, delay=0.2, delays=0.01/0/0/0.19, dsn=2.0.0, status=sent 
+(250 Ok: queued as A96E61A11AD)
+May 22 10:16:24 mail1 postfix/smtp[68950]: Host offered STARTTLS: [mstpf-com.mail.eo.outlook.com]
+May 22 10:16:25 mail1 postfix/smtp[68950]: 7F1AA78CB79: to=<albankdeposit@mstpf.com>, relay=mstpf-com.mail.eo.outlook.com[207.46.163.138]:25, delay=2.3, delays=0.01/0/0.51/1.8, dsn=2.6.0, status
+=sent (250 2.6.0 <20140522141623.7F1AA78CB79@mail1.smartechcorp.net> [InternalId=39784282068860, Hostname=BY2PR07MB156.namprd07.prod.outlook.com] Queued mail for delivery)
+May 22 10:16:25 mail1 postfix/qmgr[79619]: 7F1AA78CB79: removed
+May 22 10:16:26 mail1 postfix/smtpd[66700]: disconnect from unknown[201.230.115.78]
+May 22 10:16:28 mail1 postfix/smtpd[67713]: warning: 64.203.111.53: hostname cha-si02-ge-202.smartechcorp.net verification failed: hostname nor servname provided, or not known
+May 22 10:16:28 mail1 postfix/smtpd[67713]: connect from unknown[64.203.111.53]
+May 22 10:16:28 mail1 postfix/smtpd[67713]: disconnect from unknown[64.203.111.53]
+May 22 10:16:29 mail1 postfix/smtpd[68529]: warning: 64.203.111.53: hostname cha-si02-ge-202.smartechcorp.net verification failed: hostname nor servname provided, or not known
+May 22 10:16:29 mail1 postfix/smtpd[68529]: connect from unknown[64.203.111.53]
+May 22 10:16:29 mail1 postfix/smtpd[68529]: disconnect from unknown[64.203.111.53]
